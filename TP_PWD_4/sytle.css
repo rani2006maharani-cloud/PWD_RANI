@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+nav {
+    background-color: blueviolet;
+    color: ghostwhite;
+    text-align: center;
+    top: 0;
+    padding: 10px 0;
+    position: sticky;
+
+}
+
+section {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Deskripsi {
+    margin-top: 70px;
+    font-size: 18px;
+    
+}
+.img {
+    width: 500px;
+    display: block;
+    margin: 50px auto;
+    /* padding-bottom: 50px; */
+    border-radius: 10%;
+
+}
+.conten {
+    margin-top: 70px;
+}
+
+.tombol {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: blueviolet;
+    color: ghostwhite ;
+    padding: 8px ;
+    font-size: 24px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease,transform 0.3s ease;
+    display: none;
+}
+.tombol:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+h2 {
+    margin-top: 50px;
+}
