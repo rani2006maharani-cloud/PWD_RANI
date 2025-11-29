@@ -1,0 +1,51 @@
+    body {
+            font-family: Arial;
+            background-color: #000;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #00eaff;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #222;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #00eaff;
+        }
+
+        .nama {
+            font-size: 20px;
+            font-weight: bold;
+            color: #00eaff;
+        }
+
+        .kategori {
+            color: #aaa;
+            margin: 5px 0;
+        }
+
+        .harga {
+            font-size: 18px;
+            margin-top: 10px;
+            color: #00ff6a;
+        }
