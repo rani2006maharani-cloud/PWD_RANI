@@ -24,7 +24,7 @@ $data = $buku->getAll();
     </ul>
 </nav>
 
-
+<!-- TABEL -->
 <div class="container mt-4 p-4 bg-white rounded shadow">
     <h2 class="mb-4">Daftar Buku</h2>
 
